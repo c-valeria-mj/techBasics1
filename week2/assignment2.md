@@ -5,7 +5,7 @@ Create a little text game satisfying the following requirements:
 - At least one conditional statement is nested within another conditional statement
 - One of the user input should be a number within a particular range, your code shall verify if the user input is 1) a valid number 2) within the range that you define. If the user input doesn't satisfy the requirement, ask for input again
 - Use time delays to improve the interactive experience
-- There should be at least one branching point where user inputs lead to different 
+- There should be at least one branching point where user inputs lead to different path
 - save it as `game.py`
 
 Bonus
