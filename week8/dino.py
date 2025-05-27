@@ -44,7 +44,8 @@ while flag:
 
     # moving dino as clock tick
     if dino_x  < SCREEN_WIDTH:
-        dino_x += 3
+        dino_x += 5
+        pygame.transform.rotate(img, 180)
     else:
         dino_x = 0
 
