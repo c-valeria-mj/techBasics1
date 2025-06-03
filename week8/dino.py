@@ -24,7 +24,7 @@ img = pygame.image.load("dino.png").convert_alpha()
 img = pygame.transform.scale(img, (100,100))
 
 # option: tint your image if you want
-# imp.fill((0, 0, 200, 100), special_flags=pygame.BLEND_ADD)
+img.fill((0, 0, 200, 100), special_flags=pygame.BLEND_ADD)
 
 # position of dino
 dino_x = 100
